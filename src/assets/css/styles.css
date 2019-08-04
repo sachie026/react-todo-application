@@ -1,0 +1,68 @@
+.tasklist-header {
+  height: 150px !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.task-entry {
+  padding: 10px 15px;
+  min-width: 500px;
+  border: 0px;
+  border-bottom: 1px solid #f0f0f0;
+  outline: none;
+}
+
+.task-add {
+  margin: 0px 15px;
+  padding: 10px 15px;
+  min-width: 100px;
+  border: 1px solid #f0f0f0;
+  background-color: white;
+  font-weight: bold;
+  box-sizing: border-box;
+}
+
+.task-list {
+  height: 500px;
+  background: #fff;
+  padding: 0px 12%;
+}
+
+.timer-modal {
+  height: 200px;
+  width: 450px;
+  background: white;
+  position: fixed;
+  z-index: 1000;
+  top: 30%;
+  left: 50%;
+  margin: 0 auto;
+  transform: translate(-50%, -50%);
+  display: none;
+}
+
+.task-row {
+  padding: 25px;
+  display: flex;
+  margin: 5px 0px;
+  background: #f6f6f6;
+}
+
+.task-label {
+  flex: 8;
+}
+
+.task-delete {
+  flex: 1;
+  justify-content: center;
+  display: flex;
+}
+
+.task-delete-icon {
+  background: white;
+  padding: 4px 10px;
+  border-radius: 50%;
+  cursor: pointer;
+  font-weight: 600;
+}
