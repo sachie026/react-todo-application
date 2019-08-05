@@ -66,3 +66,20 @@
   cursor: pointer;
   font-weight: 600;
 }
+
+.task-footer {
+  display: flex;
+  justify-content: center;
+  margin: 0px 0px 25px 0px;
+  border: 1px solid #f0f0f0;
+  padding: 15px 0px;
+  border-top-width: 0px;
+}
+
+.hide {
+  display: none;
+}
+
+.show {
+  display: block;
+}
